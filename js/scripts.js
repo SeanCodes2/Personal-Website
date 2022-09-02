@@ -5,3 +5,29 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+setTheme = (theme) => {
+    let currentTheme = document.getElementById('theme');
+
+    switch(theme){
+        case 'darkly':
+            currentTheme.setAttribute('href', 'css/darkly.min.css');
+            break;
+       
+        case 'simplex':
+            currentTheme.setAttribute('href', 'css/simplex.min.css');
+            break;
+        case 'sketchy':
+            currentTheme.setAttribute('href', 'css/sketchy.min.css');
+            break;
+        case 'minty':
+            currentTheme.setAttribute('href', 'css/minty.min.css');
+            break;
+            
+    }
+    localStorage.setItem('jsTheme', theme);
+}
+
+if(localStorage.getItem('jsTheme') != null){
+    setTheme(localStorage.getItem('jsTheme'));
+}

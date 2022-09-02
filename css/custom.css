@@ -1,0 +1,12 @@
+section#features img {
+    height: 80px;
+}
+
+.classImg {
+    height: 400px;
+    width: auto;
+}
+
+.card-link {
+    text-decoration: none;
+}
