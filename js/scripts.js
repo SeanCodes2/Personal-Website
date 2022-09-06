@@ -15,7 +15,7 @@ setTheme = (theme) => {
             break;
        
         case 'simplex':
-            currentTheme.setAttribute('href', 'css/simplex.min.css');
+            currentTheme.setAttribute('href', 'css/sandstone.min.css');
             break;
         case 'sketchy':
             currentTheme.setAttribute('href', 'css/sketchy.min.css');
@@ -31,3 +31,5 @@ setTheme = (theme) => {
 if(localStorage.getItem('jsTheme') != null){
     setTheme(localStorage.getItem('jsTheme'));
 }
+
+

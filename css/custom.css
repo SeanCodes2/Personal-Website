@@ -1,11 +1,14 @@
 section#features img {
     height: 80px;
+    border-radius: 25px;
 }
 
 .classImg {
-    height: 400px;
-    width: auto;
+    height: autox;
+    width: 100%;
 }
+
+
 
 .card-link {
     text-decoration: none;
