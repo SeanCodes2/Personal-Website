@@ -32,4 +32,9 @@ if(localStorage.getItem('jsTheme') != null){
     setTheme(localStorage.getItem('jsTheme'));
 }
 
+$(function(){
+    $(".ss-menu").ssMenu({
+        
+    });
 
+  });
